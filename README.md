@@ -7,4 +7,4 @@ source [path/to/this/repo]/*/setup.bash
 
 list of available software:
 
-- ***nmap***
+- [***nmap***](https://nmap.org/docs.html)
