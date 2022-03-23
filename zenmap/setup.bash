@@ -1,6 +1,5 @@
 REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-echo $REPO_DIR
-
+mkdir $REPO_DIR/zenmap
 
 zenmap(){
 	if [[ $(docker images) == *"zenmap"* ]]; then

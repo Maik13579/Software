@@ -1,8 +1,8 @@
 ### Dockerized Software
 
-put this line in your .bashrc (change the path)
+put this line in your .bashrc (change the path):
 ```
-source <(cat PATH/TO/THIS/REPO/Software/*/setup.bash)
+for FILE in ~/Software/*/setup.bash ; do source $FILE ; done
 ```
 
 list of available software:
